@@ -1,9 +1,10 @@
 import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css';
-import Card from './Card';
+import Card from '../Expenses/Card';
+import { useState } from 'react';
 
 const ExpenseItem = (props) => {
-
+   console.log('ExpenseItem evaluated by React');
 
    return (
       <Card className='expense-item'>
