@@ -1,6 +1,7 @@
 import Expenses from './components/Expenses/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
 import { useState } from 'react';
+{/* <img src={logo} className="App-logo" alt="logo" /> */ }
 
 const dummy_expenses = [
   {
@@ -30,7 +31,6 @@ function App() {
   const addExpenseHandler = expense => {
     // console.log(expense);
     setExpenses(prevState => [expense, ...prevState])
-
   }
 
   return (
